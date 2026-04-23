@@ -1,10 +1,25 @@
-# Companion Windows
+# Companion Version 2.0.44.634 Windows 
 
 Companion is the bridge between Socket Mobile barcode scanners / RFID-NFC readers and any application integrating a CaptureSDK that supports the Windows platform, e.g. [C# CaptureSDK](https://github.com/SocketMobile/csharp-capturesdk). It must be installed on the Windows host before a CaptureSDK-enabled application can connect to a Socket Mobile device.
 
 The installation of Companion installs tools to manage communications with Socket Mobile devices and provides the Companion App.
 
 ## Devices Compatibility and Companion Versions
+
+The device compatibility shows devices available for any CaptureSDK-enabled application.
+
+|                    Devices                     | 2.0 |
+| :--------------------------------------------: | :-: |
+|                    **S320**                    | ✅  |
+|                 **M930/M940**                  | ✅  |
+|        **SocketCam C820[UWP/MAUI-Net9]**       | ✅  |
+|               **S720/D720/S820**               | ✅  |
+|   **S550, and all older barcode scanners**     | ✅  |
+|                    **S370**                    | ✅  |
+|                    **M963**                    | ✅  |
+|                    **S721**                    | ✅  |
+
+Note: The 32-bit build of Companion does not support Bluetooth LE devices such as the S320, S370, S550 and S721.
 
 ## What the Companion App Does
 
